@@ -1,0 +1,19 @@
+{
+  "name": "angular-music-history",
+  "version": "0.0.0",
+  "homepage": "https://github.com/taylormiley/angular-music-history",
+  "authors": [
+    "taylormiley <coachtaylormiley@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.4",
+    "bootstrap": "~3.3.5",
+    "firebase": "~2.2.9",
+    "jquery": "~2.1.4",
+    "lodash": "~3.10.1",
+    "q": "~1.0.1",
+    "require-handlebars-plugin": "~0.11.3",
+    "requirejs": "~2.1.20"
+  }
+}
