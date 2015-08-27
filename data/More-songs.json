@@ -1,0 +1,22 @@
+{
+  "songs": [    
+    {
+      "id" : 8,
+      "name" : "Welcome to the Jungle",
+      "artist" : "Guns & Roses",
+      "album" : "Appetite for Destruction" 
+    },
+    {
+      "id" : 9,
+      "name" : "Ironic",
+      "artist" : "Alanis Morisette",
+      "album" : "Jagged Little Pill"
+    },
+    {
+      "id" : 10,
+      "name" : "Nightcall",
+      "artist" : "Kavinsky",
+      "album" : "Outrun"
+    }
+  ]
+}

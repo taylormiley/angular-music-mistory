@@ -1,36 +1,61 @@
 {
   "songs": [
     {
+      "id" : 1,
       "name" : "One",
       "artist" : "Metallica",
       "album" : "...And Justice for All"
     },
     {
+      "id" : 2,
       "name" : "Legs",
       "artist" : "ZZ Top",
       "album" : "Eliminator"
     },
     {
+      "id" : 3,
       "name" : "The Logical Song",
       "artist" : "Supertramp",
       "album" : "Breakfast in America"
     },
     {
+      "id" : 4,
       "name" : "Another Brick in the Wall",
       "artist" : "Pink Floyd",
       "album" : "The Wall"
     },
     {
-     "name" : "Welcome to the Jungle",
+      "id" : 5,
+      "name" : "Enter Sandman",
+      "artist" : "Metallica",
+      "album" : "Metallica"
+    },
+    {
+      "id" : 6,
+      "name" : "Eye of the Beholder",
+      "artist" : "Metallica",
+      "album" : "...And Justice for All"
+    },
+    {
+      "id" : 7,
+      "name" : "Fuel",
+      "artist" : "Metallica",
+      "album" : "Reload"
+    },
+    {
+      "id" : 8,
+      "name" : "Welcome to the Jungle",
       "artist" : "Guns & Roses",
       "album" : "Appetite for Destruction" 
     },
     {
+      "id" : 9,
       "name" : "Ironic",
       "artist" : "Alanis Morisette",
       "album" : "Jagged Little Pill"
     },
     {
+      "id" : 10,
       "name" : "Nightcall",
       "artist" : "Kavinsky",
       "album" : "Outrun"
