@@ -1,3 +1,4 @@
+<a href="#/songs/add">Add Song</a>
 <h1>{{title}}</h1>
 <div>
   <input type="text" ng-model="searchText" />
@@ -10,7 +11,7 @@
 </select>
 <div class="panel panel-default song-list" ng-repeat="item in songs | filter:searchText | filter:artistSelector.artist | filter:{album: albumSelector.album}">
   <div class="panel-body">
-    <a href="#/songs/{{item.id}}">{{item.name}}</a> 
+    <a href="#/songs/{{item.$id}}">{{item.name}}</a> 
     <button ng-click="killSong(item)" class="close" aria-hidden"close"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></button>
       <p>Performed by <b>{{item.artist}}</b>
         on the album <b>{{item.album}}</b>.
@@ -18,9 +19,4 @@
       
   </div>
 </div>
-<div>
-  <input type="text" placeholder="Song" ng-model="newSongName">
-  <input type="text" placeholder="Artist" ng-model="newSongArtist">
-  <input type="text" placeholder="Album" ng-model="newSongAlbum">
-  <button ng-click="addSong()">Create</button>
-</div>
+
